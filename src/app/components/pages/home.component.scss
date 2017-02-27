@@ -1,0 +1,20 @@
+.row {
+    -moz-column-width: 25em;
+    -webkit-column-width: 25em;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+}
+
+.item {
+    display: inline-block;
+    padding: .55rem;
+    width: 100%;
+}
+
+.well {
+    position: relative;
+    display: block;
+    & img {
+        width: 100%;
+    }
+}
