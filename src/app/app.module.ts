@@ -1,15 +1,18 @@
-import { ResponsiveWebAppsComponent } from './components/pages/responsive-web-apps';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { HomeComponent } from './components/pages/home.component';
 import { AboutComponent } from './components/pages/about.component';
-import { routing } from './app.routing';
+import { LandingPageComponent } from './components/pages/landing-page.component';
+import { ResponsiveWebAppsComponent } from './components/pages/responsive-web-apps.component';
+import { AhoComponent } from './components/pages/aho.component';
+import { CjFineArtsComponent } from './components/pages/cj-fine-arts.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { routing } from './app.routing';
     HomeComponent,
     HomeComponent,
     AboutComponent,
-    ResponsiveWebAppsComponent
+    ResponsiveWebAppsComponent,
+    LandingPageComponent,
+    AhoComponent,
+    CjFineArtsComponent
   ],
   imports: [
     BrowserModule,
