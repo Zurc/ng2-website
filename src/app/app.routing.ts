@@ -7,6 +7,9 @@ import { CjFineArtsComponent } from './components/pages/cj-fine-arts.component';
 import { AhoComponent } from './components/pages/aho.component';
 import { LandingPageComponent } from './components/pages/landing-page.component';
 import { ResponsiveWebAppsComponent } from './components/pages/responsive-web-apps.component';
+import { TeranFriasComponent } from './components/pages/teran-frias.component';
+import { SeveralWebsitesComponent } from './components/pages/several-websites.component';
+import { ConstructComponent } from './components/pages/construct.component';
 
 const appRoutes: Routes = [
   {
@@ -32,6 +35,18 @@ const appRoutes: Routes = [
   {
     path: 'cj-fine-arts',
     component: CjFineArtsComponent
+  },
+  {
+    path: 'teran-frias',
+    component: TeranFriasComponent
+  },
+  {
+    path: 'several-websites',
+    component: SeveralWebsitesComponent
+  },
+  {
+    path: 'construct',
+    component: ConstructComponent
   },
 ];
 
