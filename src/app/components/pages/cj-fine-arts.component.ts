@@ -14,7 +14,7 @@ import { Component, OnInit } from '@angular/core';
                 <p>Recently my personal site as an artist has been hacked, so still in process of re-making, but… you can enjoy the viewing of many of my works now.</p>
                 <p>I love freedom on my art, and that is translated on the styles that I choose, materials I use and the actual ‘motivs’ that I decide to&nbsp;create.</p>
                 <p>Once I was told that I’m like ‘many artists in one’, 🙂</p>
-                <p class="mb-2">Feel free to <a href="http://cruzjurado.com/">visit my page</a>.</p>
+                <p class="mb-2">Feel free to <a href="http://cruzjurado.com/" target="_blank">visit my page</a>.</p>
             </section>
             <img src="../../../assets/images/cj-finearts.png" alt="" class="mb-2 img-responsive">
             </div>
