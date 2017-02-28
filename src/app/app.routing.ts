@@ -1,3 +1,4 @@
+import { FilterComponent } from './components/pages/filter.component';
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -7,9 +8,13 @@ import { CjFineArtsComponent } from './components/pages/cj-fine-arts.component';
 import { AhoComponent } from './components/pages/aho.component';
 import { LandingPageComponent } from './components/pages/landing-page.component';
 import { ResponsiveWebAppsComponent } from './components/pages/responsive-web-apps.component';
+<<<<<<< Updated upstream
 import { TeranFriasComponent } from './components/pages/teran-frias.component';
 import { SeveralWebsitesComponent } from './components/pages/several-websites.component';
 import { ConstructComponent } from './components/pages/construct.component';
+=======
+import { RavnWebComponent } from './components/pages/ravn-web.component';
+>>>>>>> Stashed changes
 
 const appRoutes: Routes = [
   {
@@ -37,6 +42,7 @@ const appRoutes: Routes = [
     component: CjFineArtsComponent
   },
   {
+<<<<<<< Updated upstream
     path: 'teran-frias',
     component: TeranFriasComponent
   },
@@ -47,6 +53,14 @@ const appRoutes: Routes = [
   {
     path: 'construct',
     component: ConstructComponent
+=======
+    path: 'filter',
+    component: FilterComponent
+  },
+  {
+    path: 'ravn-web',
+    component: RavnWebComponent
+>>>>>>> Stashed changes
   },
 ];
 
