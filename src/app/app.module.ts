@@ -13,14 +13,11 @@ import { LandingPageComponent } from './components/pages/landing-page.component'
 import { ResponsiveWebAppsComponent } from './components/pages/responsive-web-apps.component';
 import { AhoComponent } from './components/pages/aho.component';
 import { CjFineArtsComponent } from './components/pages/cj-fine-arts.component';
-<<<<<<< Updated upstream
 import { TeranFriasComponent } from './components/pages/teran-frias.component';
 import { SeveralWebsitesComponent } from './components/pages/several-websites.component';
 import { ConstructComponent } from './components/pages/construct.component';
-=======
 import { FilterComponent } from './components/pages/filter.component';
 import { RavnWebComponent } from './components/pages/ravn-web.component';
->>>>>>> Stashed changes
 
 @NgModule({
   declarations: [
@@ -33,14 +30,11 @@ import { RavnWebComponent } from './components/pages/ravn-web.component';
     LandingPageComponent,
     AhoComponent,
     CjFineArtsComponent,
-<<<<<<< Updated upstream
     TeranFriasComponent,
     SeveralWebsitesComponent,
-    ConstructComponent
-=======
+    ConstructComponent,
     FilterComponent,
     RavnWebComponent
->>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
